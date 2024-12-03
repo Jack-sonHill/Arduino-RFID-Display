@@ -1,9 +1,9 @@
-//Pins (Arduino Mega):
-//RST - 5
-//SDA(SS) - 53
-//MOSI - 51
-//MISO - 50
-//SCK - 52
+#//Pins (Arduino Mega):
+#//RST - 5
+#//SDA(SS) - 53
+#//MOSI - 51
+#//MISO - 50
+#//SCK - 52
 
 #include <SPI.h>
 #include <MFRC522.h>
