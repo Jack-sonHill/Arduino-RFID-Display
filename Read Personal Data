@@ -87,7 +87,7 @@ void loop() {
   }
   Serial.print(" ");
 
-  //---------------------------------------- GET LAST NAME
+  //---------------------------------------- GET MAJOR TITLE
 
   byte buffer2[18];
   block = 1;
@@ -106,7 +106,7 @@ void loop() {
     return;
   }
 
-  //PRINT LAST NAME
+  //PRINT MAJOR TITLE
   for (uint8_t i = 0; i < 16; i++) {
     Serial.write(buffer2[i] );
   }
