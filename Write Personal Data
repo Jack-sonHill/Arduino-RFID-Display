@@ -51,9 +51,9 @@ void loop() {
   byte len;
 
   Serial.setTimeout(20000L) ;     // wait until 20 seconds for input from serial
-  // Ask personal data: Family name
-  Serial.println(F("Type Family name, ending with #"));
-  len = Serial.readBytesUntil('#', (char *) buffer, 30) ; // read family name from serial
+  // Ask personal data: Major Title
+  Serial.println(F("Type Major Title, ending with #"));
+  len = Serial.readBytesUntil('#', (char *) buffer, 30) ; // read major title from serial
   for (byte i = len; i < 30; i++) buffer[i] = ' ';     // pad with spaces
 
   block = 1;
